@@ -1,0 +1,27 @@
+.videoCard {
+  overflow-y: scroll;
+
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.videoCard::-webkit-scrollbar {
+  display: none; /* 크롬 사파리 오페라 엣지 */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 5px;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+.thumbnails {
+  width: 100%;
+}
+.thumbnails img {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  font-size: 1rem;
+}
